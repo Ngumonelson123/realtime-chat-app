@@ -1,0 +1,35 @@
+# ====== Dependencies ======
+node_modules/
+**/node_modules/
+
+# ====== Environment variables / secrets ======
+.env
+**/.env
+.env.*
+**/.env.*
+
+# ====== Logs ======
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ====== OS / Editor files ======
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ====== React build output ======
+frontend/build/
+build/
+
+# ====== Optional: coverage ======
+coverage/
+
+# ====== Optional: local DB / temp ======
+*.sqlite
+*.db
+.tmp/
+temp/
